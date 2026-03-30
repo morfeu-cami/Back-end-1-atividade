@@ -1,35 +1,46 @@
 
-body{
-    background-color:rgb(149, 182, 212);
-}
-#snoopy{
-    color: rgb(235, 232, 225);
-    justify-content: center;
-    display: flex;
-}
-input{
-    padding: 10px 10px 10px 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-.container{
-    color: aliceblue;
-    margin: 50px auto;
-    background-color: rgb(48, 96, 150);
-    border-radius: 20px;
-    padding: 10px;
-    width:600px;
-    justify-content: center;
-    display: flex;
-}
-label{
-    flex-direction: column;
-    display:block;
-    margin-bottom: 8px;
-}
-#Texto1{
-    color:rgb(252, 252, 252);
-   justify-content: center;
-   display : flex;
-}
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>atividade-camile</title>
+    </head>
+    <body>
+        <div id="snoopy">
+            <h1>Camile T Raiol</h1>
+            <i>desenvolvedora de sistemas</i>
+            <br>
+            </div>
+            <h1 class="container">HTML formulário</h1>
+    <div class="container">
+    <form method="">
+        <div>
+            <label>primeiro nome:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>segundo nome:</label>
+        <input type="text">
+        </div>
+        <div>
+            <div>
+                <label>data de nascimento:</label>
+                <input type="number">
+            </div>
+            <label>email:</label>
+            <input type="email">
+            <div>
+                <label>número de telefone:</label>
+                <input type="tel">
+            </div>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="submit">Apagar</button>
+    </form>
+</div>
+<br>
+<b id="Texto1">turma de 2027</b>
+    </body>
+</html>
 
