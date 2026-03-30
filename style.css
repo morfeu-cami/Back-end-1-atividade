@@ -2,8 +2,10 @@
 body{
     background-color:rgb(149, 182, 212);
 }
-.fundo{
-    color:rgb(0, 0, 0)
+#snoopy{
+    color: rgb(235, 232, 225);
+    justify-content: center;
+    display: flex;
 }
 input{
     padding: 10px 10px 10px 10px;
@@ -11,16 +13,23 @@ input{
     margin-top: 10px;
 }
 .container{
+    color: aliceblue;
+    margin: 50px auto;
     background-color: rgb(48, 96, 150);
     border-radius: 20px;
     padding: 10px;
-    width:auto;
+    width:600px;
+    justify-content: center;
+    display: flex;
 }
 label{
     flex-direction: column;
     display:block;
     margin-bottom: 8px;
 }
-#Titulo1{
-    color:rgb(0, 0, 0)
+#Texto1{
+    color:rgb(252, 252, 252);
+   justify-content: center;
+   display : flex;
 }
+
