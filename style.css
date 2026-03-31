@@ -28,5 +28,17 @@ label{
 #Texto1{
     justify-content: center;
     display: flex;
-    color
+    color:khaki
+}
+
+#Titulo1{
+    color: khaki;
+    justify-content: center;
+    display: flex;
+}
+
+#Titulo2{
+    color:khaki;
+    justify-content: center;
+    display: flex;
 }
